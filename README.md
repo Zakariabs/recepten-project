@@ -57,7 +57,8 @@ Dit project is een basis Express.js server. Het is bedoeld als een startpunt voo
 - Destructuring wordt gebruikt in de functies `displayRecipes` en `filter` in [`public/js/scripts.js`](public/js/scripts.js) en [`public/js/recipe.js`](public/js/recipe.js).
 
 ### 8. Spread & Rest operator
-**Status**: ❌ Niet geïmplementeerd
+**Status**: ✅ Geïmplementeerd
+- Gebruikt in [`public/js/recipe.js`](public/js/recipe.js).
 
 ### 9. Iteration over een array
 **Status**: ✅ Geïmplementeerd
@@ -76,7 +77,8 @@ Dit project is een basis Express.js server. Het is bedoeld als een startpunt voo
 - Promises worden gebruikt met `fetch` in [`public/js/scripts.js`](public/js/scripts.js) en [`public/js/recipe.js`](public/js/recipe.js).
 
 ### 13. Consumer methods
-**Status**: ❌ Niet expliciet geïmplementeerd
+**Status**: ✅ Geïmplementeerd
+- Gebruikt in [`public/js/scripts.js`](public/js/scripts.js).
 
 ### 14. Async & Await
 **Status**: ✅ Geïmplementeerd
@@ -105,3 +107,4 @@ Dit project is een basis Express.js server. Het is bedoeld als een startpunt voo
 ### 20. Gebruik van LocalStorage
 **Status**: ✅ Geïmplementeerd
 - LocalStorage wordt gebruikt om zoektermen op te slaan in [`public/js/scripts.js`](public/js/scripts.js).
+

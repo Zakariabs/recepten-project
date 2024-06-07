@@ -44,12 +44,14 @@
             const recipeCard = document.createElement('div');
             recipeCard.classList.add('recipe-card');
 
-            // Gebruiken van template literals
+            // Gebruik van template literals en spread operator
+            const ingredientList = [...ingredients].join(', ');
+
             recipeCard.innerHTML = `
                 <a href="/recipe/${id}">
                     <img src="${image}" alt="${name}">
                     <h3>${name}</h3>
-                    <p>Ingredients: ${ingredients}</p>
+                    <p>Ingredients: ${ingredientList}</p>
                 </a>
             `;
 

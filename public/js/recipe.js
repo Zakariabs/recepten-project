@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch(`/api/recipes/${recipeId}`);
         const recipe = await response.json();
 
+        // Gebruik van de spread operator
+        const ingredients = [...recipe.ingredients];
+        const instructions = [...recipe.instructions];
+
         recipeContainer.innerHTML = `
             <img src="${recipe.image}" alt="${recipe.name}">
             <h2>${recipe.name}</h2>
@@ -18,11 +22,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             <p><strong>Rating:</strong> ${recipe.rating} (${recipe.reviewCount} reviews)</p>
             <h3>Ingredients</h3>
             <ul>
-                ${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
+                ${ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
             </ul>
             <h3>Instructions</h3>
             <ol>
-                ${recipe.instructions.map(instruction => `<li>${instruction}</li>`).join('')}
+                ${instructions.map(instruction => `<li>${instruction}</li>`).join('')}
             </ol>
             <h3>Tags</h3>
             <div class="tags">
