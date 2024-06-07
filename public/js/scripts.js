@@ -40,7 +40,7 @@
     // Elementen manipuleren
     const displayRecipes = (recipes) => {
         recipesContainer.innerHTML = '';
-        recipes.forEach(({ id, image, name, description }) => { // Destructuring
+        recipes.forEach(({ id, image, name, ingredients }) => { // Destructuring
             const recipeCard = document.createElement('div');
             recipeCard.classList.add('recipe-card');
 
@@ -49,7 +49,7 @@
                 <a href="/recipe/${id}">
                     <img src="${image}" alt="${name}">
                     <h3>${name}</h3>
-                    <p>${description}</p>
+                    <p>Ingredients: ${ingredients}</p>
                 </a>
             `;
 
