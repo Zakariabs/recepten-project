@@ -4,7 +4,7 @@ Dit project is een receptenzoeker gebouwd met Node.js en Express. Het maakt gebr
 
 ## Inspiratie
 
-Dit project is geïnspireerd door de tutorial in de YouTube-video: [Build a Node.js REST API with Express](https://www.youtube.com/watch?v=JB1aKAoj2o0&t=5876s).
+Dit project is geïnspireerd door de tutorial in de YouTube-video: [Next.js vs React – What's the difference?](https://www.youtube.com/watch?v=JB1aKAoj2o0&t=5876s).
 
 ## Functionaliteiten
 
