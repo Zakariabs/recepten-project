@@ -4,17 +4,37 @@ Dit project is een receptenzoeker gebouwd met Node.js en Express. Het maakt gebr
 
 ## Inspiratie
 
-Dit project is geïnspireerd door de tutorial in de YouTube-video: [Next.js vs React – What's the difference?](https://www.youtube.com/watch?v=JB1aKAoj2o0&t=5876s).
+Dit project is geïnspireerd door de tutorial in de YouTube-video: [ What is the difference between Nextjs & React](https://www.youtube.com/watch?v=JB1aKAoj2o0&t=5876s).
+
+
+
+# Express.js Server Project
+
+Dit project is een basis Express.js server. Het is bedoeld als een startpunt voor het bouwen van webapplicaties met Node.js en Express.js.
+
+## Vereisten
+
+- Node.js
+- npm
+
+## Gebruik
+
+ ```sh
+ npm install
+ cd saras-kitchen-project
+ node app.js
+ ```
+
 
 ## Functionaliteiten
 
 ### 1. Elementen selecteren
 **Status**: ✅ Geïmplementeerd
-- Elementen worden geselecteerd met `document.getElementById` in [`public/js/scripts.js`](public/js/scripts.js).
+- Elementen worden geselecteerd met `document.getElementById` in [`public/js/scripts.js`](public/js/scripts.js) en [`public/js/recipe.js`](public/js/recipe.js).
 
 ### 2. Elementen manipuleren
 **Status**: ✅ Geïmplementeerd
-- Elementen worden gemanipuleerd met `innerHTML` en `appendChild` in [`public/js/scripts.js`](public/js/scripts.js).
+- Elementen worden gemanipuleerd met `innerHTML` en `appendChild` in [`public/js/scripts.js`](public/js/scripts.js) en [`public/js/recipe.js`](public/js/recipe.js).
 
 ### 3. Event aan een element koppelen
 **Status**: ✅ Geïmplementeerd
@@ -34,7 +54,7 @@ Dit project is geïnspireerd door de tutorial in de YouTube-video: [Next.js vs R
 
 ### 7. Destructuring
 **Status**: ✅ Geïmplementeerd
-- Destructuring wordt gebruikt in de functies `displayRecipes` en `filter` in [`public/js/scripts.js`](public/js/scripts.js).
+- Destructuring wordt gebruikt in de functies `displayRecipes` en `filter` in [`public/js/scripts.js`](public/js/scripts.js) en [`public/js/recipe.js`](public/js/recipe.js).
 
 ### 8. Spread & Rest operator
 **Status**: ❌ Niet geïmplementeerd
@@ -85,4 +105,3 @@ Dit project is geïnspireerd door de tutorial in de YouTube-video: [Next.js vs R
 ### 20. Gebruik van LocalStorage
 **Status**: ✅ Geïmplementeerd
 - LocalStorage wordt gebruikt om zoektermen op te slaan in [`public/js/scripts.js`](public/js/scripts.js).
-
